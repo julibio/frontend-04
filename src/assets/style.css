@@ -1,89 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400&display=swap');
-#app{
-    font-family: Akshar, Helvetica, sans-serif;
-    text-align: center;
-    color: #2c3e50;
+#app {
+  font-family: Akshar, Helvetica, sans-serif;
+  text-align: center;
+  color: #2c3e50;
 }
 
 p,
 h1,
-body{
-    margin: 0px;
-    padding: 0px
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-    background: linear-gradient(to right,#25c481, #25b7c4);
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
 }
 
-.structure{
-    min-width: 80%;
+.structure {
+  min-width: 80%;
 }
 
-input, select{
-    padding: 10px;
-    border-radius: 5px;
-    border: solid 1px;
-    margin-right: 5px;
+input,
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px;
+  margin-right: 5px;
 }
 
-input:focus, select:focus{
-    outline: solid 1px white;
+input:focus,
+select:focus {
+  outline: solid 1px white;
 }
 
-button{
-    font-family: Akshar, Helvetica, sans-serif;
-    font-size: 1rem;
-    text-transform: uppercase;
-    padding: 10px;
-    border-radius: 5px;
-    border: solid 1px white;
-    margin-right: 5px;
-    margin-top: 5px;
-    background: transparent;
-    color: white;
-    cursor: pointer;
+button {
+  font-family: Akshar, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px white;
+  margin-right: 5px;
+  margin-top: 5px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
 }
 
-button:hover{
-    background: #1da175;
-    color: #fff;
+button:hover {
+  background: #1da175;
+  color: #fff;
 }
 
-.resetButton:hover{
-    background: #f8415d;
+.resetButton:hover {
+  background: #f8415d;
 }
 
 button:disabled,
-.resetButton:disabled{
-    cursor: auto;
-    color: gray;
-    border: solid 1px gray;
-    background: transparent;
+.resetButton:disabled {
+  cursor: auto;
+  color: gray;
+  border: solid 1px gray;
+  background: transparent;
 }
 
-@media screen and (max-width: 700px){
-    input{
-        display: block;
-        width: 70%;
-        margin: auto;
-        margin-bottom: 10px;
-        align-self: center;
-        text-align: center;
-    }
+@media screen and (max-width: 700px) {
+  input {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    align-self: center;
+    text-align: center;
+  }
 
-    .structure{
-        min-width: 100%;
-    }
+  .structure {
+    min-width: 100%;
+  }
 }
-
-
-
